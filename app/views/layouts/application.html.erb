@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>RubyGems Community</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta http-equiv="Description" name="Description" content="How to get involved with RubyGems" />
+  <meta http-equiv="Keywords" name="Keywords" content="rubygems, gems, programming, ruby, packages" />
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="home">
+<section id="head-wrapper">
+  <section id="homepage-top">
+    <header>
+      <h1>RubyGems Community</h1>
+
+      <section id="the-sell">
+        <h2>RubyGems Community</h2>
+        <p class="tagline">Get involved and get hacking with projects using RubyGems!</p>
+      </section>
+    </header>
+
+    <section id="chapters">
+      <%= yield %>
+    </section>
+  </section>
+</section>
+</body>
+</html>
