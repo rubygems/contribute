@@ -19,6 +19,11 @@ This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your 
 
 Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
+Adding links
+============
+
+This site's content lives mostly in `app/views/pages/home.html.md`. Jump in and edit it, send a pull request, and we'll merge it in!
+
 Thanks
 ======
 

@@ -46,10 +46,6 @@ html, body {
         height: 70px;
         padding-top: 13px;
         text-indent: 90px;
-        color: white;
-        font: 300 42px/42px "proxima-nova-1", "proxima-nova-2", "museo-sans-1", "museo-sans-2", helvetica neue, sans-serif;
-        letter-spacing: 1px;
-        text-shadow: 0 0 1px #333;
       }
     }
   }
@@ -59,7 +55,7 @@ html, body {
     opacity: 0.7;
     -moz-opacity: 0.7;
     background: #000;
-    padding: 0;
+    padding-bottom: 20px;
     width: 810px;
 
     header {
@@ -81,7 +77,7 @@ html, body {
 
         h2 {
           color: white;
-          font: 300 42px/42px helvetica neue, sans-serif;
+          font: 300 40px/40px helvetica neue, sans-serif;
           letter-spacing: 1px;
           text-shadow: 0 0 1px #333;
         }
@@ -103,7 +99,7 @@ html, body {
       margin: 0 0 0 168px;
 
       a, a:visited, a:link {
-        color: #fff;
+        color: #AD141E;
         text-decoration: none;
       }
 
@@ -128,15 +124,19 @@ html, body {
       p {
         color: #AAA;
         font: 300 16px/18px "proxima-nova-1", "proxima-nova-2", "museo-sans-1", "museo-sans-2", helvetica neue, sans-serif;
-        margin: 4px 50px 0 0;
+        margin: 4px 50px 40px 0;
 
         a, a:visited, a:link {
-          color: #AAA;
+          color: #FF6666;
         }
 
         a:hover {
           color: #AD141E;
         }
+      }
+
+      code {
+        font-size: 14px;
       }
     }
   }
