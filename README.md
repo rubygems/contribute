@@ -12,16 +12,17 @@ Goals
 Setup
 =====
 
-Make sure you have jekyll installed (`gem install jekyll`), and run:
+This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your box with:
 
-    $ jekyll --server
+    bundle
+    rails server
 
-The pages will be available at http://localhost:4000/
+Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
 Thanks
 ======
 
-Huge thanks to [thoughtbot](http//thoughtbot.com) whose [handbook](http://handbook.thoughtbot.com) this is based off of.
+Huge thanks to [thoughtbot](http//thoughtbot.com) whose [playbook](http://playbook.thoughtbot.com) these styles are based off of.
 
 Legal
 =====
