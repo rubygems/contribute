@@ -1,5 +1,5 @@
 Looking to contribute to a RubyGems project? You've come to the right place!
-There's many development efforts going on right now, and any they could use
+There's many development efforts going on right now, and they could use
 your help. Find out who leads projects, how to get started committing!
 
 ## Core Projects
@@ -167,6 +167,6 @@ repo](http://github.com/rubygems/contribute) and add the link!
 
 ## Credits
 
-This site is [open source](https://github.com/rubygems/community) and its content is
-[Creative Commons](https://github.com/rubygems/community/blob/gh-pages/CC-LICENSE)
+This site is [open source](https://github.com/rubygems/contribute) and its content is
+[Creative Commons](https://github.com/rubygems/contribute/blob/gh-pages/CC-LICENSE)
 licensed.
