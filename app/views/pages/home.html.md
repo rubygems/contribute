@@ -2,6 +2,36 @@ Looking to contribute to a RubyGems project? You've come to the right place!
 There's many development efforts going on right now, and they could use
 your help. Find out who leads projects, how to get started committing!
 
+## New Projects
+
+### [RubyGems Search](https://github.com/rubygems/search)
+
+A souped-up implementation of search on RubyGems.org, using Solr. Still not
+100% done yet, but hopefully will replace the search box on RubyGems.org soon!
+
+[contributors](http://it.isagit.com/rubygems/search) -
+[issues](https://github.com/rubygems/search/issues)
+
+[![Nick Zadrozny](https://secure.gravatar.com/avatar/5198f305281b34927f936ba77cffcbf6?s=32)](http://github.com/nz)
+
+### [RubyGems Mirror](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0)
+
+The current state of mirroring RubyGems is frankly embarrassing. We need help,
+and with fixing this problem. Discussion is going on in the [rubygems-mirror
+wiki](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0) on how
+to improve it.
+
+[contributors](http://it.isagit.com/rubygems/rubygems-mirror) -
+[issues](https://github.com/rubygems/rubygems-mirror/issues)
+
+[![James Tucker](https://secure.gravatar.com/avatar/b19b02a49b433c9e2e6e6c43785d2bfb?s=32)](http://github.com/raggi)
+
+### Your idea?
+
+We'd love for your new idea to be on this list. If you're working on a
+RubyGems related project, just [fork this
+repo](http://github.com/rubygems/contribute) and add the link!
+
 ## Core Projects
 
 ### [RubyGems](https://github.com/rubygems/rubygems)
@@ -82,17 +112,6 @@ community, check this out!
 
 [![Erik Michaels-Ober](https://secure.gravatar.com/avatar/1f74b13f1e5c6c69cb5d7fbaabb1e2cb?s=32)](http://github.com/sferik)
 
-### [RubyGems Mirror](https://github.com/rubygems/rubygems-mirror)
-
-An update to the old `gem mirror` command. New ideas for how to handle
-mirroring going forward are being discussed [on this project's
-wiki](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0).
-
-[contributors](http://it.isagit.com/rubygems/rubygems-mirror) -
-[issues](https://github.com/rubygems/rubygems-mirror/issues)
-
-[![James Tucker](https://secure.gravatar.com/avatar/b19b02a49b433c9e2e6e6c43785d2bfb?s=32)](http://github.com/raggi)
-
 ## Ecosystem Projects
 
 ### [Bundler](https://github.com/carlhuda/bundler)
@@ -147,23 +166,6 @@ without much hassle.
 
 [![Tom Lea](https://secure.gravatar.com/avatar/f61c5838432c656ea88dd77a56a40f52?s=32)](http://github.com/cwninja)
 
-## Works in Progress
-
-### [RubyGems Search](https://github.com/rubygems/search)
-
-A souped-up implementation of search on RubyGems.org, using Solr. Still not
-100% done yet, but hopefully will replace the search box on RubyGems.org soon!
-
-[contributors](http://it.isagit.com/rubygems/search) -
-[issues](https://github.com/rubygems/search/issues)
-
-[![Nick Zadrozny](https://secure.gravatar.com/avatar/5198f305281b34927f936ba77cffcbf6?s=32)](http://github.com/nz)
-
-### Your idea?
-
-We'd love for your new idea to be on this list. If you're working on a
-RubyGems related project, just [fork this
-repo](http://github.com/rubygems/contribute) and add the link!
 
 ## Credits
 

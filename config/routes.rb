@@ -1,3 +1,3 @@
-Community::Application.routes.draw do
+Contribute::Application.routes.draw do
   root :to => 'high_voltage/pages#show', :id => 'home'
 end
