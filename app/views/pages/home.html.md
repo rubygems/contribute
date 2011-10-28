@@ -16,8 +16,9 @@ A souped-up implementation of search on RubyGems.org, using Solr. Still not
 
 ### [RubyGems Mirror](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0)
 
-The current state of mirroring RubyGems is frankly embarrassing. We need help,
-and with fixing this problem. Discussion is going on in the [rubygems-mirror
+The current state of mirroring RubyGems is frankly embarrassing. We need
+RubyGems to be highly available all over the world, no more excuses! Discussion 
+is going on in the [rubygems-mirror
 wiki](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0) on how
 to improve it.
 
