@@ -167,6 +167,15 @@ without much hassle.
 
 [![Tom Lea](https://secure.gravatar.com/avatar/f61c5838432c656ea88dd77a56a40f52?s=32)](http://github.com/cwninja)
 
+### [GemStats](http://gemstats.org)
+
+Help the Ruby community collect and publish information on Ruby library
+usage.
+
+[site](http://gemstats.org)
+
+[![Nick Plante](https://secure.gravatar.com/avatar/9ea5b82a23b081cdc7e2ac5e2282c852?s=32)](http://github.com/zapnap)
+[![Brian Cardarella](https://secure.gravatar.com/avatar/ed5f3e2d77dcf44a67efa72e09e9f28f?s=32)](http://github.com/bcardarella)
 
 ## Credits
 
