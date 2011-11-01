@@ -167,6 +167,16 @@ without much hassle.
 
 [![Tom Lea](https://secure.gravatar.com/avatar/f61c5838432c656ea88dd77a56a40f52?s=32)](http://github.com/cwninja)
 
+### [Gemnasium](https://gemnasium.com)
+
+Gemnasium keeps you up to date on the gems that matter to you.
+It parses your Ruby projects’ gem dependencies and notifies you when new
+versions are released.
+
+[site](https://gemnasium.com)
+
+[![Steve Richert](https://secure.gravatar.com/avatar/0887991a8846577a6aa85433d6ab3ea2?s=32)](http://github.com/laserlemon)
+[![Collective Idea](https://secure.gravatar.com/avatar/13ff8dc8c2bf2a4752816e1e3f201a05?s=32)](http://github.com/collectiveidea)
 
 ## Credits
 
