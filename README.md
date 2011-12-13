@@ -19,6 +19,35 @@ This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your 
 
 Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
+Setup for Ubuntu
+================
+
+Ubuntu needs a JavaScript runtime. It says: 
+    Ubuntu Could not find a JavaScript runtime. 
+      See https://github.com/sstephenson/execjs 
+      for a list of available runtimes. 
+      (ExecJS::RuntimeUnavailable)
+
+So modify the Gemfile before you run bundle.  The gemfile should look like this:
+
+    source 'http://rubygems.org'
+    .            
+    .            
+    .            
+    gem 'rails', '3.1.1'
+    gem 'therubyrunner'
+    .            
+    .            
+    .            
+    gem 'uglifier', '>= 1.0.3'
+
+Then, run the same 2 commands shown above:
+
+    bundle
+    rails server
+
+Now, rails and rake should run for you in ubuntu
+
 Adding links
 ============
 

@@ -2,6 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 
+#if HOST_OS =~ /linux/i
+  gem 'therubyracer', '>= 0.9.8'
+#end
+
 gem 'flutie'
 gem 'high_voltage'
 gem 'jquery-rails'
