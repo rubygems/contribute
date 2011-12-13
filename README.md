@@ -19,26 +19,35 @@ This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your 
 
 Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
-Setup for Ubuntu
+Setup for Linux
 ================
 
-Ubuntu needs a JavaScript runtime. It says: 
-    Ubuntu Could not find a JavaScript runtime. 
+For Rails 3.1, Linux must have a JavaScript runtime. 
+Without one Rails says:  
+    Linux Could not find a JavaScript runtime. 
       See https://github.com/sstephenson/execjs 
       for a list of available runtimes. 
       (ExecJS::RuntimeUnavailable)
 
 So modify the Gemfile before you run bundle.  The gemfile should look like this:
 
+
+    require 'rbconfig'
+    HOST_OS = RbConfig::CONFIG['host_os']
     source 'http://rubygems.org'
-    .            
-    .            
-    .            
     gem 'rails', '3.1.1'
-    gem 'therubyrunner'
-    .            
-    .            
-    .            
+
+    if HOST_OS =~ /linux/i
+      gem 'therubyracer', '>= 0.9.8'
+    end
+
+    gem 'flutie'
+    gem 'high_voltage'
+    gem 'jquery-rails'
+    gem 'redcarpet'
+
+    gem 'sass-rails',   '~> 3.1.4'
+    gem 'coffee-rails', '~> 3.1.1'
     gem 'uglifier', '>= 1.0.3'
 
 Then, run the same 2 commands shown above:
