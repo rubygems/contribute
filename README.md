@@ -19,6 +19,27 @@ This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your 
 
 Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
+JavaScript Runtime Required
+===============================
+
+Rails 3.1 needs a Javascript runtime and on Linux this requires special handling.  
+Without a runtime, rails commands like  *rails server* throw an exception saying:
+
+    Linux Could not find a JavaScript runtime.  
+    See https://github.com/sstephenson/execjs 
+    for a list of available runtimes.  
+    (ExecJS::RuntimeUnavailable)
+
+To fix this error either **install node.js** (with: sudo apt-get nodejs)  
+
+OR
+
+Include **'therubyracer'** in your Gemfile.  
+
+    gem "therubyracer", :require => 'v8'
+
+See https://github.com/sstephenson/execjs for more.
+
 Adding links
 ============
 
