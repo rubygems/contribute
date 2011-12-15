@@ -11,6 +11,15 @@ Goals
 
 Setup
 =====
+xxx
+
+I think just documenting the need of a 
+   javaScript runtime and 
+   suggestion to add either node or 
+   
+   therubyracer seems enough.
+
+xxx
 
 This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your box with:
 
@@ -21,7 +30,10 @@ Done! There's no database requirement (in fact, ActiveRecord is not loaded at al
 
 Setup for Linux
 ================
+xxx
 
+
+xxx
 For Rails 3.1, Linux must have a JavaScript runtime. 
 Without one Rails says:  
     Linux Could not find a JavaScript runtime. 
