@@ -1,5 +1,5 @@
 Looking to contribute to a RubyGems project? You've come to the right place!
-There's many development efforts going on right now, and they could use
+There are many development efforts going on right now, and they could use
 your help. Find out who leads projects, how to get started committing!
 
 ## New Projects
@@ -17,7 +17,7 @@ A souped-up implementation of search on RubyGems.org, using Solr. Still not
 ### [RubyGems Mirror](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0)
 
 The current state of mirroring RubyGems is frankly embarrassing. We need
-RubyGems to be highly available all over the world, no more excuses! Discussion 
+RubyGems to be highly available all over the world, no more excuses! Discussion
 is going on in the [rubygems-mirror
 wiki](https://github.com/rubygems/rubygems-mirror/wiki/Mirroring-2.0) on how
 to improve it.
