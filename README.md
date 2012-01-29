@@ -1,3 +1,10 @@
+Deprecation Notice
+==================
+
+**This site was previously linked from the [rubygems.org home page](https://rubygems.org/). That link has
+been redirected to the [RubyGems Guides Contributing page](http://guides.rubygems.org/contributing/). Future
+updates should be made in the [RubyGems Guides GitHub Project](https://github.com/rubygems/guides).**
+
 RubyGems Developers
 ===================
 
@@ -22,19 +29,19 @@ Done! There's no database requirement (in fact, ActiveRecord is not loaded at al
 JavaScript Runtime Required
 ===============================
 
-Rails 3.1 needs a Javascript runtime and on Linux this requires special handling.  
+Rails 3.1 needs a Javascript runtime and on Linux this requires special handling.
 Without a runtime, rails commands like  *rails server* throw an exception saying:
 
-    Linux Could not find a JavaScript runtime.  
-    See https://github.com/sstephenson/execjs 
-    for a list of available runtimes.  
+    Linux Could not find a JavaScript runtime.
+    See https://github.com/sstephenson/execjs
+    for a list of available runtimes.
     (ExecJS::RuntimeUnavailable)
 
-To fix this error either **install node.js** (with: sudo apt-get nodejs)  
+To fix this error either **install node.js** (with: sudo apt-get nodejs)
 
 OR
 
-Include **'therubyracer'** in your Gemfile.  
+Include **'therubyracer'** in your Gemfile.
 
     gem "therubyracer", :require => 'v8'
 
