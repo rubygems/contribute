@@ -21,8 +21,10 @@ Setup
 
 This is a Rails 3.1 app that is deployed to Heroku. Get the app running on your box with:
 
-    bundle
-    rails server
+```bash
+bundle
+rails server
+```
 
 Done! There's no database requirement (in fact, ActiveRecord is not loaded at all!) so setup should go smoothly.
 
@@ -43,7 +45,9 @@ OR
 
 Include **'therubyracer'** in your Gemfile.
 
-    gem "therubyracer", :require => 'v8'
+```ruby
+gem "therubyracer", :require => 'v8'
+```
 
 See https://github.com/sstephenson/execjs for more.
 
