@@ -45,7 +45,7 @@ OR
 
 Include **'therubyracer'** in your Gemfile.
 
-```bash
+```ruby
 gem "therubyracer", :require => 'v8'
 ```
 
